@@ -1,12 +1,7 @@
 DEFINE VARIABLE a AS INTEGER NO-UNDO.
 DEFINE VARIABLE b AS INTEGER NO-UNDO.
-DEFINE VARIABLE c AS INTEGER NO-UNDO.
 
+UPDATE a COLUMN-LABEL "digite o primeiro numero! "
+       b COLUMN-LABEL "digite o segundo numero !".
 
-
-UPDATE a COLUMN-LABEL "digite um numero".
-UPDATE b COLUMN-LABEL "digite o segundo numero".
-
-c = a + b.
-
-DISPLAY "SOMA="c.
+DISPLAY "SOMA=" a + b.
